@@ -10,6 +10,7 @@ phases:
       - echo Build started on `date`
       - echo Compiling the C++ code...
       - g++ hello.cpp -o hello.out
+      - ./hello.out
   post_build:
     commands:
       - echo Build completed on `date`
